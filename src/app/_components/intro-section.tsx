@@ -15,21 +15,23 @@ export function IntroSection(){
       </defs>
     </svg>
     <div className="container flex max-w-[64rem] flex-col items-center text-center gap-4">
-      <span className="rounded-2xl bg-muted px-4 py-1.5 text-smfont-medium flex items-center">🗓️ 1ª turma dia 05 de Março de 2024
-        <ModeToggle />
+      <span className="rounded-2xl bg-muted px-4 py-1.5 text-smfont-medium flex items-center mb-8">🗓️ 1ª turma dia 05 de Março de 2024
+        <ModeToggle/>
       </span>
-      <h1 className="font-heading text-4xl md:text-6xl ls:text-7xl">Modelo reutilizável
+      <h1 className="font-heading text-4xl md:text-6xl ls:text-7xl">Inicie agora a sua carreira
         <br />
-        de <span className="text-primary">
-          Landpage
+        como <span className="text-primary">
+          Dev
         </span>
       </h1>
       <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-        Bem-vindo ao futuro digital. Descubra a inovação com Primeiro Impacto. Mergulhe em um design revolucionário, potencializado por Next.js e Tailwind. Simples, rápido e encantador.
+        Do zero ao avançado, torne-se um desenvolvedor web full-stack altamente qualificado e pronto para o mercado de trabalho. <span className="text-primary">
+          Mesmo sem nunca ter escrito uma única linha de código.
+        </span>
       </p>
       <div className="space-x-4">
-        <a href="#investiment" className="bg-primary py-2 px-4 text-md text-white rounded shadow-lg font-bold">Quero fazer parte</a>
-        <a href="#feature" className={cn(buttonVariants({ variant: 'outline', size: 'lg' }))}>Saiba mais</a>
+        <a href="#investiment" className={cn(buttonVariants({ variant: 'outline', size: 'lg', className: "bg-primary py-2 px-4 text-md text-white rounded shadow-lg font-bold py-8" }))}>Impulsionar a carreira</a>
+        <a href="#feature" className={cn(buttonVariants({ variant: 'outline', size: 'lg', className: 'py-8' }))}>O que vamos aprender?</a>
         <button></button>
       </div>
     </div>
