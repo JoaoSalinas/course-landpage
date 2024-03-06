@@ -12,7 +12,7 @@ export async function saveLead({
   phoneNumber: string;
 }) {
   try {
-    await sql`INSERT INTO PreEnrollment (name, email, phoneNumber) VALUES (${name}, ${email}, ${phoneNumber})`;
+    await sql`INSERT INTO preenrollment (name, email, phoneNumber) VALUES (${name}, ${email}, ${phoneNumber})`;
   } catch (error) {
     console.log(error);
   }
