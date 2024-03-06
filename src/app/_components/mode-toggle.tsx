@@ -8,7 +8,8 @@ import {MoonIcon, SunIcon} from 'lucide-react'
 
 export function ModeToggle() {
   const {setTheme} = useTheme();
-
+  setTheme('dark')
+  
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
