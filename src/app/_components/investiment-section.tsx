@@ -13,23 +13,29 @@ function InvestimentSection() {
           <ul className='grid gap-3 text-sm text-muted-foreground sm:grid-cols-2'>
             <li className='flex items-center'>
               <Check className='mr-2 h-4 w-4' /> Aulas gravadas para assistir
-              quando quiser
+              quando e onde quiser
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Aulas ao vivo
+              <Check className='mr-2 h-4 w-4' /> Acesso vitalício aos conteúdos
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> 15 dias de garantia
+              <Check className='mr-2 h-4 w-4' /> Direito a lançamentos futuros 
+            </li>
+            <li className='flex items-center'>
+              <Check className='mr-2 h-4 w-4' /> Direito a atualização dos conteúdos
+            </li>            
+            <li className='flex items-center'>
+              <Check className='mr-2 h-4 w-4' /> Workshops e Webinars exclusivos
             </li>
             <li className='flex items-center'>
               <Check className='mr-2 h-4 w-4' /> Acesso ao código fonte do
               projeto
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Grupo exclusivo no WhatsApp
+              <Check className='mr-2 h-4 w-4' /> Servidor exclusivo no discord 
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Suporte via WhatsApp
+              <Check className='mr-2 h-4 w-4' /> Contato direto com o(s) intrutor(es)
             </li>
           </ul>
         </div>
