@@ -18,7 +18,7 @@ export function IntroSection(){
       </defs>
     </svg>
     <div className="container flex max-w-[64rem] flex-col items-center text-center gap-4">
-      <span className="rounded-2xl bg-muted px-4 py-1.5 text-smfont-medium flex items-center mb-8">🗓️ 1ª turma dia 05 de Março de 2024
+      <span className="rounded-2xl bg-muted px-4 py-1.5 text-smfont-medium flex items-center mb-8">🗓️ 1ª turma dia 01 de Julho de 2024
       </span>
       <h1 className="font-heading text-4xl md:text-6xl ls:text-7xl">Inicie agora a sua carreira
         <br />
@@ -32,7 +32,7 @@ export function IntroSection(){
         </span>
       </p>
       <div className="space-x-4 flex flex-col md:flex-row gap-y-4">
-        <a href="#investiment" className={cn(buttonVariants({ variant: 'outline', size: 'lg', className: "bg-primary border-primary px-4 text-md text-white rounded shadow-lg shadow-primary font-bold py-8" }))}>Impulsionar a minha carreira</a>
+        <a href="#investment" className={cn(buttonVariants({ variant: 'outline', size: 'lg', className: "bg-primary border-primary px-4 text-md text-white rounded shadow-lg shadow-primary font-bold py-8" }))}>Impulsionar a minha carreira</a>
         <a href="#feature" className={cn(buttonVariants({ variant: 'outline', size: 'lg', className: 'py-8' }))}>Saiba mais sobre o curso</a>
         <button></button>
       </div>

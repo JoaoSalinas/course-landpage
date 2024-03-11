@@ -3,9 +3,9 @@ import HeadingSections from "./heading-sections"
 import PreEnrollment from "./pre-enrollment"
 import Enrollment from "./enrollment"
 
-function InvestimentSection() {
+function InvestmentSection() {
   return (
-    <section id="investiment" className='container space-y-6 py-8 md:py-12 lg:py-24'>
+    <section id="investment" className='container space-y-6 py-8 md:py-12 lg:py-24'>
       <HeadingSections title="Investimento" description="Faça o melhor investimento da sua carreira. Veja os benefícios e vantagens de ser um aluno da primeira turma do curso."/>
     <div className="grid w-full border rounded-lg items-start gap-10 p-10 md:grid-cols-[1fr_200px]">
     <div className='grid gap-6'>
@@ -19,6 +19,9 @@ function InvestimentSection() {
               <Check className='mr-2 h-4 w-4' /> Acesso vitalício aos conteúdos
             </li>
             <li className='flex items-center'>
+              <Check className='mr-2 h-4 w-4' /> Acesso a conteúdos de apoio
+            </li>
+            <li className='flex items-center'>
               <Check className='mr-2 h-4 w-4' /> Direito a lançamentos futuros 
             </li>
             <li className='flex items-center'>
@@ -28,14 +31,14 @@ function InvestimentSection() {
               <Check className='mr-2 h-4 w-4' /> Workshops e Webinars exclusivos
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Acesso ao código fonte do
-              projeto
+              <Check className='mr-2 h-4 w-4' /> Acesso ao código fonte dos
+              projetos criados
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Servidor exclusivo no discord 
+              <Check className='mr-2 h-4 w-4' /> Comunidade exclusiva para alunos no discord 
             </li>
             <li className='flex items-center'>
-              <Check className='mr-2 h-4 w-4' /> Contato direto com o(s) intrutor(es)
+              <Check className='mr-2 h-4 w-4' /> Contato direto com o instrutor (Discord e Whatsapp pessoal)
             </li>
           </ul>
         </div>
@@ -56,4 +59,4 @@ function InvestimentSection() {
   )
 }
 
-export default InvestimentSection
+export default InvestmentSection
