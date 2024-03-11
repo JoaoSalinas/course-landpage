@@ -1,21 +1,21 @@
 export const content = [
   {
     id: 1,
-    title: 'Módulo 1: Alinhando expectativas - O que vamos aprender?',  
-    week: ["Semana 1"],  
+    title: 'Módulo 1: Alinhando expectativas - O que vamos aprender (Teórico)?',
+    week: "Semana 1",
     episodes: [
       { id: 1, title: 'Sobre o curso' },
-      { id: 2, title: 'Sobre o(s) instrutor(es)' },      
-      { id: 3, title: 'O mercado de trabalho para Devs'},
-      { id: 4, title: 'No-code, Low-code ou Hard-code?'},
-      { id: 5, title: 'De onde partir e pra onde ir? (Roadmaps)'},
-      { id: 6, title: 'Mitos e verdades'},
+      { id: 2, title: 'Sobre o instrutor' },
+      { id: 3, title: 'O mercado de trabalho para Devs' },
+      { id: 4, title: 'No-code, Low-code ou Hard-code?' },
+      { id: 5, title: 'De onde partir e pra onde ir? (Roadmaps)' },
+      { id: 6, title: 'Mitos e verdades' },
     ],
   },
   {
     id: 2,
-    title: 'Módulo 2: Primeiro contato - O Alicerce: Algoritmos e Lógica',
-    week:["Semanas 2, 3, 4, 5, 6, 7 e 8"],
+    title: 'Módulo 2: Primeiro contato - O Alicerce: Algoritmos e Lógica (Backend)',
+    week: "Semanas 2, 3, 4, 5, 6, 7 e 8",
     episodes: [
       { id: 1, title: 'O que são algoritmos e onde podem ser encontrados?' },
       { id: 2, title: 'Fundamentos são o maior diferencial!' },
@@ -46,7 +46,7 @@ export const content = [
       { id: 27, title: 'Loops - Map' },
       { id: 28, title: 'Loops - DoWhile' },
       { id: 29, title: 'Loops - DoWhile' },
-      { id: 30, title: 'Exercícios sobre Loops' },      
+      { id: 30, title: 'Exercícios sobre Loops' },
       { id: 31, title: 'Desafio de raciocínio lógico' },
       { id: 32, title: 'Reaprendendo a pensar a matemática - Multiplicação' },
       { id: 33, title: 'Reaprendendo a pensar a matemática - Divisão e conquista' },
@@ -69,8 +69,8 @@ export const content = [
   },
   {
     id: 3,
-    title: 'Módulo 3: Mundo real e computacional - Um toque de mundo real ao código: POO',
-    week:['Semanas 9, 10, 11, 12, 13 e 14'],
+    title: 'Módulo 3: Mundo real e computacional - Um toque de mundo real ao código: POO e APS (Backend)',
+    week: "Semanas 9, 10, 11, 12, 13 e 14",
     episodes: [
       { id: 1, title: 'O que é POO e para que serve?' },
       { id: 2, title: 'Classes e Objetos' },
@@ -82,14 +82,20 @@ export const content = [
       { id: 8, title: 'Encapsulamento' },
       { id: 9, title: 'Polimorfismo' },
       { id: 10, title: 'Projeto prático' },
-      { id: 9, title: 'REST API' },
-      { id: 9, title: 'REST' },
+      { id: 11, title: 'O que é APS?' },
+      { id: 12, title: 'Qual a diferença entre padrões de projetos e padrões de arquitetura?' },
+      { id: 13, title: 'Padrões criacionais' },
+      { id: 14, title: 'Padrões estruturais' },
+      { id: 15, title: 'Padrões comportamentais' },
+      { id: 16, title: 'Padrões comportamentais' },
+      { id: 17, title: 'Padrão TDD' },
+      { id: 18, title: 'Padrão DDD' },
     ],
   },
   {
     id: 4,
     title: 'Módulo 4: Persistindo dados - Persistindo Dados e extraindo informações relevantes: Banco de dados',
-    week:['Semanas 15, 16, 17 e 18'],
+    week: "Semanas 15, 16, 17 e 18",
     episodes: [
       { id: 1, title: 'O que é banco de dados?' },
       { id: 2, title: 'SQL, NOSQL e outros' },
@@ -105,118 +111,189 @@ export const content = [
       { id: 12, title: 'SQL Avançado: Transações' },
       { id: 13, title: 'SQL Avançado: Gatilhos' },
       { id: 14, title: 'Exercício de Funções, Transações e gatilhos' },
-      { id: 15, title: 'Tendências em Banco de Dados: Big Data e Data Science'},
-      { id: 16,title: 'Projeto Final: Desenvolvendo um Banco de Dados Real a partir de ER'}
+      { id: 15, title: 'Tendências em Banco de Dados: Big Data e Data Science' },
+      { id: 16, title: 'Projeto Final: Desenvolvendo um Banco de Dados Real a partir de ER' }
     ],
   },
   {
     id: 5,
-    title: 'Módulo 5: Primeiro projeto real completo - API Persistida: ',
-    week:[],
+    title: "Módulo 5: Desenvolvimento Web - Estrutura da Web: HTML (Frontend)",
+    week: "Semanas 19, 20, 21 e 22",
     episodes: [
-      { id: 1, title: 'O que são metadados' },
-      { id: 2, title: 'Fonts' },
-      { id: 3, title: 'Layout responsivo com TailwindCSS' },
-      { id: 4, title: 'Layout default' },
-      { id: 5, title: 'Criando componente Topbar' },
-      { id: 6, title: 'Criando componente Sidebar' },
-      { id: 7, title: 'Criando componente Sidebar para Mobile' },
-      { id: 8, title: 'O que são middlewares?' },
-      { id: 9, title: 'Redirecionamento de páginas' },
-    ],
+      { id: 1, title: "O que é HTML?" },
+      { id: 2, title: "Estrutura básica de uma página HTML" },
+      { id: 3, title: "Tags HTML essenciais: cabeçalho, parágrafos, links" },
+      { id: 4, title: "Listas, tabelas e formulários" },
+      { id: 5, title: "Incorporando imagens, vídeos e áudio" },
+      { id: 6, title: "Semântica HTML para SEO" },
+      { id: 7, title: "Acessibilidade na Web: melhores práticas" },
+      { id: 8, title: "Ferramentas de desenvolvimento do navegador" },
+      { id: 9, title: "Projeto prático: Criando sua primeira página Web" }
+    ]
   },
   {
     id: 6,
-    title: 'Módulo 6: Configurando Banco de Dados',
-    week:[],
+    title: "Módulo 6: Estilizando a Web: CSS (Frontend)",
+    week: "Semanas 23, 24, 25 e 26",
     episodes: [
-      { id: 1, title: 'Configurando o PlanetScale' },
-      { id: 2, title: 'Configurando Prisma ORM' },
-    ],
+      { id: 1, title: "Introdução ao CSS" },
+      { id: 2, title: "Seletores, propriedades e valores" },
+      { id: 3, title: "Box model e posicionamento" },
+      { id: 4, title: "Flexbox: alinhando elementos de forma eficiente" },
+      { id: 5, title: "Grid: criando layouts complexos" },
+      { id: 6, title: "Animações e transições" },
+      { id: 7, title: "Variáveis CSS e preprocessadores" },
+      { id: 8, title: "Responsividade e design adaptativo" },
+      { id: 9, title: "Projeto prático: Desenvolvendo um layout responsivo" }
+    ]
   },
   {
     id: 7,
-    title: 'Módulo 7: Criando Curso',
-    week:[],
+    title: "Módulo 7: Design Rápido e Responsivo: Tailwind CSS e Shadcn UI (Frontend)",
+    week: "Semanas 27 e 28",
     episodes: [
-      { id: 1, title: 'Criando página de Novo Curso' },
-      { id: 2, title: 'O que são Server Actions?' },
-      { id: 3, title: 'Novo curso' },
-      { id: 4, title: 'Criando tabela de Cursos' },
-      { id: 5, title: 'Entendendo Data Fetching' },
-      { id: 6, title: 'Criando API de Cursos' },
-      { id: 7, title: 'Edição de Cursos' },
-      { id: 8, title: 'Edição de Episódios' },
-      { id: 9, title: 'Publicação de Cursos' },
-      { id: 10, title: 'Publicação de Episódios' },
-    ],
+      { id: 1, title: "Introdução ao Tailwind CSS" },
+      { id: 2, title: "Configurando Tailwind em seu projeto" },
+      { id: 3, title: "Utilitários Tailwind e design responsivo" },
+      { id: 4, title: "Customização e criação de componentes" },
+      { id: 5, title: "Práticas recomendadas e dicas de produtividade" },
+      { id: 6, title: "Projeto prático: Refatorando um layout com Tailwind CSS" }
+    ]
   },
+  ,
   {
     id: 8,
-    title: 'Módulo 8: Listagem de Cursos',
-    week: [],
+    title: "Módulo 8: Interatividade na Web : JavaScript (FullStack)",
+    week: "Semanas 29, 30, 31 e 32",
     episodes: [
-      { id: 1, title: 'Entendendo sobre Caching' },
-      { id: 2, title: 'Lazy Loading' },
-      { id: 3, title: 'Criando componente de Listagem de Curso' },
-      { id: 4, title: 'Filtro para Listagem de Curso' },
-    ],
+      { "id": 1, "title": "Introdução ao JavaScript" },
+      { "id": 2, "title": "Variáveis, Tipos de Dados e Operadores" },
+      { "id": 3, "title": "Estruturas de Controle: Condições e Loops" },
+      { "id": 4, "title": "Funções e Escopos" },
+      { "id": 5, "title": "DOM - Document Object Model" },
+      { "id": 6, "title": "Eventos e Manipulação de Eventos" },
+      { "id": 7, "title": "JSON e Armazenamento Web" },
+      { "id": 8, "title": "Programação Assíncrona: Callbacks, Promises, Async/Await" },
+      { "id": 9, "title": "Projeto prático: Criando uma aplicação web interativa" }
+    ]
   },
   {
     id: 9,
-    title: 'Módulo 9: Integração com Stripe',
-    week: [],
+    title: "Módulo 9: Acrescentando superpoderes ao JS : Typescript (FullStack)",
+    week: "Semanas 29, 30, 31 e 32",
     episodes: [
-      { id: 1, title: 'Configurando Stripe' },
-      { id: 2, title: 'Componente de Compra de Curso' },
-      { id: 3, title: 'Integração com Stripe' },
-    ],
+      { "id": 1, "title": "Introdução ao TypeScript: Por que TypeScript?" },
+      { "id": 2, "title": "Configurando o ambiente de desenvolvimento" },
+      { "id": 3, "title": "Tipos básicos e avançados" },
+      { "id": 4, "title": "Interfaces e Classes" },
+      { "id": 5, "title": "Generics" },
+      { "id": 6, "title": "Decorators e Namespaces" },
+      { "id": 7, "title": "Migrando de JavaScript para TypeScript" },
+      { "id": 8, "title": "Projeto prático: Aplicando TypeScript em um projeto existente" }
+    ]
   },
   {
     id: 10,
-    title: 'Módulo 10: Dashboard do Aluno',
-    week: [],
+    title: "Módulo 10: Componentes e estados: React (Frontend)",
+    week: "Semanas 33, 34, 35 e 36",
     episodes: [
-      { id: 1, title: 'Progresso do Aluno' },
-      { id: 2, title: 'Dashboard do Aluno' },
-    ],
+      { "id": 1, "title": "Introdução ao React e seu ecossistema" },
+      { "id": 2, "title": "Criando seu primeiro componente" },
+      { "id": 3, "title": "Estado e Ciclo de Vida" },
+      { "id": 4, "title": "Gerenciamento de estados com Hooks" },
+      { "id": 5, "title": "Roteamento com React Router" },
+      { "id": 6, "title": "Chamadas API com Axios" },
+      { "id": 7, "title": "Context API e Redux para gerenciamento de estado avançado" },
+      { "id": 8, "title": "Testando componentes React" },
+      { "id": 9, "title": "Projeto prático: Construindo uma aplicação SPA com React" }
+    ]
   },
   {
     id: 11,
-    title: 'Módulo 11: Deployment',
-    week: [],
+    title: "Módulo 11: Framework React: NextJS (FullStack)",
+    week: "Semanas 37, 38, 39 e 40",
     episodes: [
-      { id: 1, title: 'Tudo sobre a Vercel' },
-      { id: 2, title: 'Configurando novo projeto na Vercel' },
-      { id: 3, title: 'WebHooks Clerk' },
-      { id: 4, title: 'WebHooks Stripe' },
-      { id: 5, title: 'Analytics' },
-    ],
+      { "id": 1, "title": "Introdução ao React e seu ecossistema" },
+      { "id": 2, "title": "Criando seu primeiro componente" },
+      { "id": 3, "title": "Estado e Ciclo de Vida" },
+      { "id": 4, "title": "Gerenciamento de estados com Hooks" },
+      { "id": 5, "title": "Roteamento com React Router" },
+      { "id": 6, "title": "Chamadas API com Axios" },
+      { "id": 7, "title": "Context API e Redux para gerenciamento de estado avançado" },
+      { "id": 8, "title": "Testando componentes React" },
+      { "id": 9, "title": "Projeto prático: Construindo uma aplicação SPA com React" }
+    ]
   },
   {
     id: 12,
-    title: 'Complementar - E-commerce do zero com Woocommerce (Low-Code)',
-    week: ['Módulo Opcional'],
+    title: "Módulo 12: O maior diferencial - Engenharia de software (Softskills)",
+    week: "Semanas 41, 42, 43 e 44",
+    episodes: [
+      { "id": 1, "title": "Introdução à Engenharia de Software" },
+      { "id": 2, "title": "Visão Geral das Metodologias de Desenvolvimento de Software" },
+      { "id": 3, "title": "Princípios das Metodologias Ágeis" },
+      { "id": 4, "title": "Scrum Fundamentals: Papéis, Cerimônias e Artefatos" },
+      { "id": 5, "title": "Kanban na Prática: Visualizando o Fluxo de Trabalho" },
+      { "id": 6, "title": "Concepção de um MVP (Produto Mínimo Viável)" },
+      { "id": 7, "title": "Introdução aos Diagramas UML" },
+      { "id": 8, "title": "Diagramas UML na Prática: Casos de Uso, Classe, Sequência" },
+      { "id": 9, "title": "Gerenciamento de Projetos Ágeis com JIRA" },
+      { "id": 10, "title": "Ferramentas de Colaboração e Comunicação em Equipes Ágeis" },
+      { "id": 11, "title": "DevOps e a Cultura de Integração Contínua" },
+      { "id": 12, "title": "Projeto Prático: Implementando um Fluxo de Trabalho Ágil com Scrum e Kanban" }
+    ]
+  },
+  {
+    id: 13,
+    title: "Módulo 13: O nômade digital - Trabalho remoto (Softskills)",
+    week: "Semanas 45, 46, 47 e 48",
+    episodes: [
+      { "id": 1, "title": "Introdução ao Trabalho Remoto: Mitos e Realidades" },
+    { "id": 2, "title": "Preparando o Terreno: Configurando seu Espaço de Trabalho Ideal" },
+    { "id": 3, "title": "Ferramentas Essenciais para o Trabalho Remoto" },
+    { "id": 4, "title": "Comunicação Eficiente em Ambientes Remotos" },
+    { "id": 5, "title": "Gestão de Tempo e Produtividade no Trabalho Remoto" },
+    { "id": 6, "title": "Construindo e Mantendo a Cultura da Empresa à Distância" },
+    { "id": 7, "title": "Saúde Mental e Bem-estar para Nômades Digitais" },
+    { "id": 8, "title": "Networking e Construção de Comunidade em Ambiente Remoto" },
+    { "id": 9, "title": "Gerenciando Projetos e Equipes Remotamente" },
+    { "id": 10, "title": "Segurança da Informação e Melhores Práticas para Trabalhadores Remotos" },
+    { "id": 11, "title": "Navegando por Fusos Horários: Trabalho Síncrono vs. Assíncrono" },
+    { "id": 12, "title": "Legalidades e Logísticas do Trabalho Remoto Internacional" },
+    { "id": 13, "title": "Projeto Prático: Criando seu Plano de Transição para Nômade Digital" }
+    ]
+  },
+
+  {
+    id: 12,
+    title: 'Complementar - Ambiente de desenvolvimento no windows: WSL 2(Ambiente)',
+    week: "Módulo Opcional",
     episodes: [
       { id: 1, title: 'Aula extra' },
-      {
-        id: 2,
-        title:
-          'Live: Quarta-feira, 6 de dezembro · 7:00 até 8:00pm Fuso horário: America/Sao_Paulo Como participar do Google Meet Link da videochamada: https://meet.google.com/som-akuz-nbo',
-      },
     ],
   },
   {
     id: 13,
-    title: 'Bônus 2',
-    week: [],
+    title: 'Complementar - E-commerce completo com Wordpress e Woocommerce (Low-Code)',
+    week: "Módulo Opcional",
     episodes: [
       { id: 1, title: 'Aula extra' },
-      {
-        id: 2,
-        title:
-          'Live: Quarta-feira, 10 de janeiro de 2024 · 7:00 até 8:00pm Fuso horário: America/Sao_Paulo Como participar do Google Meet Link da videochamada: https://meet.google.com/emy-cgvp-zav',
-      },
     ],
   },
+  {
+    id: 14,
+    title: 'Complementar - Fábrica de software: Criando projetos relâmpagos com Rails (FullStack)',
+    week: "Módulo Opcional",
+    episodes: [
+      { id: 1, title: 'Aula extra' },
+    ],
+  },
+  {
+    id: 14,
+    title: 'Complementar - Transformando ideias em produtos (Softskills)',
+    week: "Módulo Opcional",
+    episodes: [
+      { id: 1, title: 'Aula extra' },
+    ],
+  }
 ];

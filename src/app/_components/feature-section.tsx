@@ -113,22 +113,21 @@ function FeatureSection() {
         <p className='leading-normal text-muted-foreground sm:text-lg sm:leading-7 mb-4'>
           Iremos desenvolver em cada módulo a fundamentação teórica acompanhada de tarefas mão na massa, desafios e um projeto final para cada módulo de conteúdo.
         </p>
-        <Accordion type='single' collapsible className='w-full'>
-          {content.map((item) => (
-            <AccordionItem value={`item-${item.id}`} key={item.id}>
+        <Accordion type='single' collapsible className='w-full'>   
+          {content.map((item) => (            
+            <AccordionItem value={`item-${item!.id}`} key={item!.id}>
               <AccordionTrigger>
                 <div className='space-y-1 text-left'>
                   <h4 className='text-sm font-medium leading-none'>
-                    {item.title}
+                    {item!.title}
                   </h4>
                   <p className='text-sm text-muted-foreground'>
-                    {item.week}
-                    
+                    {item!.week}                    
                   </p>
                 </div>
               </AccordionTrigger>
               <AccordionContent className='text-left'>
-                {item.episodes.map((episode) => (
+                {item!.episodes.map((episode) => (
                   <>
                     <div key={episode.id} className='text-sm'>
                       {`Ep-${episode.id}: ${episode.title}`}
