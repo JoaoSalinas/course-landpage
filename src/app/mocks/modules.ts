@@ -395,5 +395,67 @@ export const content = [
       { id: 7, title: "Gestão de produtos: Ferramentas e técnicas para gerenciar seu produto a longo prazo" },
       { id: 8, title: "Entendendo nosso produto comercialmente: Canvas" }
     ]
+  },
+  {
+    id: 19,
+    title: "Complementar - Utilizando IAs para aumentar a produtividade  (Softskills)",
+    week: "Módulo Opcional",
+    episodes: [
+      {
+        id: 19,
+        title: "Complementar - Utilizando IAs para aumentar a produtividade (Softskills)",
+        week: "Módulo Opcional",
+        episodes: [
+          {
+            id: 1,
+            title: "Introdução à Inteligência Artificial e Produtividade"
+          },
+          {
+            id: 2,
+            title: "Ferramentas de IA para Gestão de Tempo"
+          },
+          {
+            id: 3,
+            title: "IA na Organização e Priorização de Tarefas"
+          },
+          {
+            id: 4,
+            title: "Automatizando Processos com IA"
+          },
+          {
+            id: 5,
+            title: "IAs para Comunicação Eficiente: Chatbots e Assistente Virtuais"
+          },
+          {
+            id: 6,
+            title: "Análise de Dados com IA para Tomada de Decisões"
+          },
+          {
+            id: 7,
+            title: "IAs para Aprendizado e Desenvolvimento Pessoal"
+          },
+          {
+            id: 8,
+            title: "Criatividade e Inovação Assistidas por IA"
+          },
+          {
+            id: 9,
+            title: "Gerenciamento de Projetos com o Auxílio de IA"
+          },
+          {
+            id: 10,
+            title: "Segurança Digital e Ética no Uso de IAs"
+          },
+          {
+            id: 11,
+            title: "Estudo de Caso: Implementando IAs para Aumentar a Produtividade em Projetos Reais"
+          },
+          {
+            id: 12,
+            title: "Conclusão: Integrando IAs no Seu Fluxo de Trabalho Diário"
+          }
+        ]
+      }
+    ]
   }
 ];
