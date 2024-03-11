@@ -35,7 +35,7 @@ export default function RootLayout({
         fontSans.variable,
         fontHeading.variable
       )}>
-        <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
+        <ThemeProvider attribute='class' defaultTheme='dark' enableSystem>
           {children}
           <Analytics />
         </ThemeProvider>
