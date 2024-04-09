@@ -18,9 +18,9 @@ const fontHeading = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Modelo padrão de landpage",
-  description: "Landpage utilizando Nextjs 14",
-  keywords: ["landpage", "next", "react", "js", "ts", "tailwind"]
+  title: "Hello Coder: Curso Completo de Desenvolvimento de Software",
+  description: "Aprenda programação do zero com nosso curso completo! Dominamos desde os fundamentos da lógica de programação até o desenvolvimento web, passando por algoritmos, programação orientada a objetos, bancos de dados, desenvolvimento frontend e backend, softskills e muito mais. Comece sua jornada para se tornar um desenvolvedor de software hoje!",
+  keywords: ["curso de desenvolvimento de software", "programação", "algoritmos", "lógica de programação", "programação orientada a objetos", "desenvolvimento web", "frontend", "backend", "bancos de dados", "softskills", "javascript", "java", "typescript", "html", "css", "react", "nextjs", "nodejs", "expressjs", "mongodb", "postgresql", "graphql", "ruby on rails", "engenharia de software", "trabalho remoto", "inteligência artificial"]
 };
 
 export default function RootLayout({
