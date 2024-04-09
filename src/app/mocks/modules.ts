@@ -47,10 +47,9 @@ export const content = [
       { id: 28, title: 'Exercícios sobre Vetores' },
       { id: 29, title: 'Strings - O que são e para que servem?' },
       { id: 30, title: 'Manipulação de strings - Comparação de Strings' },
-      { id: 31, title: 'Manipulação de strings - Principais funções' },
-      { id: 32, title: 'Manipulação de strings - Principais funções' },
-      { id: 33, title: 'Exercício sobre Strings' },
-      { id: 34, title: 'Açúcares sintáticos' },
+      { id: 31, title: 'Manipulação de strings - Principais funções' },      
+      { id: 32, title: 'Exercício sobre Strings' },
+      { id: 33, title: 'Açúcares sintáticos' },
     ],
   },
   {
